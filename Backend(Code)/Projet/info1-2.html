@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>info1-2</title>
+    <link rel="stylesheet" href="style11.css">
+
+</head>
+<body>
+    <div>
+        <form>
+          <fieldset>
+            <p id="txt"><b>Inséere Vos Notes</b></p>
+            <p id="txt1">(Si vous ne savez pas le note Laissez-le 10)</p>
+          <div>
+            <label class="mat" for="SE">Systeme d'exploitation:</label><br>
+            <label class="matiere_nom">Examen:</label>
+          <input type="text" id="exam" required>
+          <label class="matiere_nom">DS:</label>
+          <input type="text" id="ds" required>
+          <label class="matiere_nom">TP:</label>
+          <input type="text" id="tp" required>
+          </div>
+            <div>
+            <label class="mat" for="BD">Fondements des Bases de Données:</label><br>
+            <label class="matiere_nom">Examen:</label>
+            <input type="text" id="exam3" required>
+            <label class="matiere_nom">DS:</label>
+            <input type="text" id="ds3" required>         </div>
+            <div>
+            <label class="mat" for="res">Fondements des Reseaux:</label><br>
+            <label class="matiere_nom">Examen:</label>
+            <input type="text" id="exam1" required>
+            <label class="matiere_nom">DS:</label>
+            <input type="text" id="ds1" required>
+            <label class="matiere_nom">TP:</label>
+            <input type="text" id="tp1" required>          </div>
+            <div>
+            <label class="mat" for="python">Programmation Python:</label><br>
+            <label class="matiere_nom">Examen:</label>
+            <input type="text" id="exam2" required>
+            <label class="matiere_nom">DS:</label>
+            <input type="text" id="ds2" required>
+            <label class="matiere_nom">TP:</label>
+            <input type="text" id="tp2" required>          </div>
+            <div>
+            <label class="mat" for="algo">Algorithmique et Structure de Données:</label><br>
+            <label class="matiere_nom">Examen:</label>
+            <input type="text" id="exam4" required>
+            <label class="matiere_nom">DS:</label>
+            <input type="text" id="ds4" required>          </div>
+            <div>
+            <label class="mat" for="AP">Atelier Programmation:</label><br>
+            <label class="matiere_nom">Examen:</label>
+            <input type="text" id="exam5" required>
+            <label class="matiere_nom">DS:</label>
+            <input type="text" id="ds5" required>
+            <label class="matiere_nom">TP:</label>
+            <input type="text" id="tp5" required>          </div>
+            <div>
+            <label class="mat" for="analyse">Analyse:</label><br>
+            <label class="matiere_nom">Examen:</label>
+            <input type="text" id="exam6" required>
+            <label class="matiere_nom">DS:</label>
+            <input type="text" id="ds6" required>          </div>
+            <div>
+            <label class="mat" for="algebre">Algebre:</label><br>
+            <label class="matiere_nom">Examen:</label>
+            <input type="text" id="exam7" required>
+            <label class="matiere_nom">DS:</label>
+            <input type="text" id="ds7" required>          </div>
+            <div>
+            <label class="mat" for="c2i">Culture et Compétences Numériques:</label><br>
+            <label class="matiere_nom">TP:</label>
+            <input type="text" id="tp8" required>            </div>
+            <div>
+              <label class="mat" for="ang1">Anglais:</label><br>
+              <label class="matiere_nom">DS1:</label>
+              <input type="text" id="exam9" required>
+              <label class="matiere_nom">DS2:</label>
+              <input type="text" id="ds9" required>
+              <label class="matiere_nom">Orale:</label>
+              <input type="text" id="orale9" required>            </div>
+            <div>
+                <label class="mat" for="TC">Techniques de Communication:</label><br>
+                <label class="matiere_nom">DS1:</label>
+                <input type="text" id="exam8" required>
+                <label class="matiere_nom">DS2:</label>
+                <input type="text" id="ds8" required>
+                <label class="matiere_nom">Orale:</label>
+                <input type="text" id="orale8" required>              </div>
+                <script type="text/javascript">
+                    function moy2(){
+                      event.preventDefault();
+                      let se1 = parseFloat(document.getElementById('exam').value);
+                      let se2 = parseFloat(document.getElementById('ds').value);
+                      let se3 = parseFloat(document.getElementById('tp').value);
+    
+                      let res1 = parseFloat(document.getElementById('exam1').value);
+                      let res2 = parseFloat(document.getElementById('ds1').value);
+                      let res3 = parseFloat(document.getElementById('tp1').value);
+    
+                      let pyt1 = parseFloat(document.getElementById('exam2').value);
+                      let pyt2 = parseFloat(document.getElementById('ds2').value);
+                      let pyt3 = parseFloat(document.getElementById('tp2').value);
+    
+                      let bas1 = parseFloat(document.getElementById('exam3').value);
+                      let bas2 = parseFloat(document.getElementById('ds3').value);
+    
+                      let algo1 = parseFloat(document.getElementById('exam4').value);
+                      let algo2 = parseFloat(document.getElementById('ds4').value);
+    
+                      let c1 = parseFloat(document.getElementById('exam5').value);
+                      let c2 = parseFloat(document.getElementById('ds5').value);
+                      let c3 = parseFloat(document.getElementById('tp5').value);
+    
+                      let anl1 = parseFloat(document.getElementById('exam6').value);
+                      let anl2 = parseFloat(document.getElementById('ds6').value);
+    
+                      let alg1 = parseFloat(document.getElementById('exam7').value);
+                      let alg2 = parseFloat(document.getElementById('ds7').value);
+    
+                      let cul1 = parseFloat(document.getElementById('tp8').value);
+    
+                       let ang1 = parseFloat(document.getElementById('exam9').value);
+                       let ang2 = parseFloat(document.getElementById('ds9').value);
+                       let ang3 = parseFloat(document.getElementById('orale9').value);
+
+                       let fr1 = parseFloat(document.getElementById('exam8').value);
+                       let fr2 = parseFloat(document.getElementById('ds8').value);
+                       let fr3 = parseFloat(document.getElementById('orale8').value);
+    
+                      let moy=document.getElementById('moy');
+                      moy.value = ((se1*0.7+se2*0.15+se3*0.15)*1.5+(bas1*0.7+bas2*0.3)*2+(pyt1*0.7+pyt2*0.15+pyt3*0.15)*1+(c1*0.7+c2*0.15+c3*0.15)*1+(algo1*0.7+algo2*0.3)*1.5+(anl1*0.7+anl2*0.3)*1.5+(cul1*1)+(alg1*0.7+alg2*0.3)*1.5+(fr1*0.4+fr2*0.4+fr3*0.2)+(ang1*0.4+ang2*0.4+ang3*0.2))/13;
+                    }
+                  </script>
+                  <button id="btn" onclick="moy2()">Calculer</button>
+                  <button id="btn1" type="reset">Effacer</button><br>
+                  <label class="mg" for="moy">Moyenne Générale :</label>
+                  <input type="number" id="moy" readonly>
+                </fieldset>
+            </form>
+          </div>
+    </body>
+    </html>

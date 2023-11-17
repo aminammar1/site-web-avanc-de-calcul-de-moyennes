@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>AVERAGUS</title>
+    <script>
+        function lien(){
+            const select1 = document.getElementById("specialite");
+            const radio1 = document.querySelector('input[name="semester"]:checked');
+            const select2 = document.getElementById("niveau");
+  if (select1.value === "Science Informatique" && radio1.value === "S1" && select2.value === "1") {
+    window.location.href = "C:/Users/Ayanokoji/OneDrive/Bureau/AVERAGUS/info1-1.html";
+  } else if (select1.value === "Science Informatique" && radio1.value === "S2" && select2.value === "1") {
+    window.location.href = "C:/Users/Ayanokoji/OneDrive/Bureau/AVERAGUS/info1-2.html";
+  } else if (select1.value === "Science Informatique" && radio1.value === "S1" && select2.value === "2") {
+    window.location.href = "C:/Users/Ayanokoji/OneDrive/Bureau/AVERAGUS/info2-1%20(1).html";
+  } else if (select1.value === "Science Informatique" && radio1.value === "S2" && select2.value === "2") {
+    window.location.href = "C:/Users/Ayanokoji/OneDrive/Bureau/AVERAGUS/try2.html";
+  } else if (select1.value === "Science Informatique" && radio1.value === "S1" && select2.value === "3") {
+    window.location.href = "C:/Users/Ayanokoji/OneDrive/Bureau/AVERAGUS/info3%20(1).html";
+  } else {
+    alert("Sélectionnez les valeurs appropriées pour continuer !");
+  }
+}
+     </script>
+</head>
+<body>
+    <div class="select-box">
+    <div class="head">
+        <h1 class="titre">Calculer votre Moyenne</h1>
+            <p class="desc">
+              <b>Etudiant universitaire? Vous souhaitez calculer votre moyenne? Vous êtes au bon endroit.</b>
+            </p>
+    </div>
+    <div class="form">
+        <form class="form1">
+            <fieldset>
+     <div>
+      <label for="specialite">License:</label><br>
+      <select id="specialite">
+        <option value="scinfo">Science Informatique</option>
+        <!--<option value="phy">Physique</option>
+        <option value="phyene">Physique et Energie</option>
+        <option value="mesinst">Mesures et Instrumentation</option>
+        <option value="eea">Electronique,Electrotechnique et Automatique</option>
+        <option value="phychi">Physique Chimie</option>
+        <option value="chim">Chimie</option>
+        <option value="math">Mathematiques</option>
+        <option value="mathapp">Mathematiques Appliquées</option>-->
+      </select>
+     </div>
+     <div>
+        <label for="niveau">Niveau:</label><br>
+        <select id="niveau">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select>
+     </div>
+     <div class="sem">
+        <label>Semester:</label><br>
+        <input type="radio" name="semester" value="S1" checked>
+        <label for="S1">S1</label>
+        <input type="radio" name="semester" value="S2">
+        <label for="S2">S2</label>
+     </div>
+     <button class="button-64" role="button" onclick="lien()"><span class="text">Submit</span></button>
+     <input class="button-27" id="btn1" type="reset" value="Reset">
+     </fieldset>
+     </form>
+    </div>
+</body>
+</html>

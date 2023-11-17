@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>info2-2</title>
+    <link rel="stylesheet" href="style11.css">
+
+</head>
+<body>
+    <div>
+        <form>
+          <fieldset>
+            <p id="txt"><b>Inséere Vos Notes</b></p>
+            <p id="tx1t">(Si vous ne savez pas le note Laissez-le 10)</p>
+          <div>
+            <label class="mat" for="TL">Test de Logiciels</label><br>
+            <label class="matiere_nom">Examen:</label>
+            <input type="number" id="exam" required>
+            <label class="matiere_nom">DS:</label>
+            <input type="number" id="ds" required>
+            <label class="matiere_nom">TP:</label>
+            <input type="number" id="tp" required>
+          </div>
+            <div>
+            <label class="mat" for="Tcomp">Techniques de Compilations</label><br>
+            <label class="matiere_nom">Examen:</label>
+            <input type="number" id="exam1" required>
+            <label class="matiere_nom">DS:</label>
+            <input type="number" id="ds1" required>
+            <label class="matiere_nom">TP:</label>
+            <input type="number" id="tp1" required>
+          </div>
+            <div>
+            <label class="mat" for="web">Technologies et Programmation Web</label><br>
+            <label class="matiere_nom">Examen:</label>
+            <input type="number" id="exam2" required>
+            <label class="matiere_nom">DS:</label>
+            <input type="number" id="ds2" required>
+            <label class="matiere_nom">TP:</label>
+            <input type="number" id="tp2" required>
+          </div>
+            <div>
+            <label class="mat" for="TI">Techniques d'indexation</label><br>
+            <label class="matiere_nom">Examen:</label>
+            <input type="number" id="exam3" required>
+            <label class="matiere_nom">DS:</label>
+            <input type="number" id="ds3" required>
+            <label class="matiere_nom">TP:</label>
+            <input type="number" id="tp3" required>
+          </div>
+            <div>
+            <label class="mat" for="BD2">Administration des Bases de Données</label><br>
+            <label class="matiere_nom">Examen:</label>
+            <input type="number" id="exam4" required>
+            <label class="matiere_nom">DS:</label>
+            <input type="number" id="ds4" required>
+            <label class="matiere_nom">TP:</label>
+            <input type="number" id="tp4" required>
+          </div>
+            <div>
+            <label class="mat" for="ED">Entrepots de Données</label><br>
+            <label class="matiere_nom">Examen:</label>
+            <input type="number" id="exam5" required>
+            <label class="matiere_nom">DS:</label>
+            <input type="number" id="ds5" required>
+          </div>
+            <div>
+            <label class="mat" for="IA">Fondements de l'Intelligence Artificielle(IA)</label><br>
+            <label class="matiere_nom">Examen:</label>
+            <input type="number" id="exam6" required>
+            <label class="matiere_nom">DS:</label>
+            <input type="number" id="ds6" required>
+            <label class="matiere_nom">TP:</label>
+            <input type="number" id="tp6" required>
+          </div>
+            <div>
+            <label class="mat" for="MA">Projet Fédéré(methode Agile)</label><br>
+            <label class="matiere_nom">TP:</label>
+            <input type="number" id="MA" required>
+          </div>
+            <div>
+            <label class="mat" for="DI">Droit d'Informatique , Protections des Données et éthique</label><br>
+            <label class="matiere_nom">DS1:</label>
+            <input type="number" id="exam7" required>
+            <label class="matiere_nom">DS2:</label>
+            <input type="number" id="ds7" required>
+          </div>
+            <div>
+              <label class="mat" for="ang3">Anglais</label><br>
+              <label class="matiere_nom">DS1:</label>
+              <input type="number" id="exam8" required>
+              <label class="matiere_nom">DS2:</label>
+              <input type="number" id="ds8" required>
+              <label class="matiere_nom">Orale:</label>
+              <input type="number" id="orale8" required>
+            </div>
+            <div>
+                <label class="mat" for="linux">Initiation a Certification Linux</label><br>
+                <label class="matiere_nom">Examen:</label>
+                <input type="number" id="exam9" required>
+                <label class="matiere_nom">DS:</label>
+                <input type="number" id="ds9" required>
+                <label class="matiere_nom">TP:</label>
+                <input type="number" id="tp9" required>
+              </div>
+              <div>
+                <label class="mat" for="python1">Python</label><br>
+                <label class="matiere_nom">Examen:</label>
+                <input type="number" id="exam10" required>
+                <label class="matiere_nom">DS:</label>
+                <input type="number" id="ds10" required>
+                <label class="matiere_nom">TP:</label>
+                <input type="number" id="tp10" required>
+              </div>
+              <script>
+                function moy2(){
+                /*test*/
+                let tl1=document.getElementById("exam");
+                let tl2=document.getElementById("ds");
+                let tl3=document.getElementById("tp");
+                /*tcomp*/
+                let tcomp1=document.getElementById("exam1");
+                let tcomp2=document.getElementById("ds1");
+                let tcomp3=document.getElementById("tp1");
+                /*web*/
+                let web1=document.getElementById("exam2");
+                let web2=document.getElementById("ds2");
+                let web3=document.getElementById("tp2");
+                /*index*/
+                let index1=document.getElementById("exam3");
+                let index2=document.getElementById("ds3");
+                let index3=document.getElementById("tp3");
+                /*BD2*/
+                let bd1=document.getElementById("exam4");
+                let bd2=document.getElementById("ds4");
+                let bd3=document.getElementById("tp4");
+                /*ED*/
+                let ed1=document.getElementById("exam5");
+                let ed2=document.getElementById("ds5");
+                /*IA*/
+                let ia1=document.getElementById("exam6");
+                let ia2=document.getElementById("ds6");
+                let ia3=document.getElementById("tp6");
+                /*MA*/
+                let ma=document.getElementById("MA");
+                /*DI*/
+                let di1=document.getElementById("exam7");
+                let di2=document.getElementById("ds7");
+                /*ang2*/
+                let ang1=document.getElementById("exam8");
+                let ang2=document.getElementById("ds8");
+                let ang3=document.getElementById("orale8");
+                /*linux*/
+                let linux1=document.getElementById("exam9");
+                let linux2=document.getElementById("ds9");
+                let linux3=document.getElementById("tp9");
+                /*python*/
+                let py1=document.getElementById("exam10");
+                let py2=document.getElementById("ds10");
+                let py3=document.getElementById("tp10");
+///////////////////////eq
+let moy=document.getElementById('moy');
+                moy.value=((parseFloat(tl1.value)*0.7+parseFloat(tl2.value)*0.15+parseFloat(tl3.value)*0.15)*1+(parseFloat(tcomp1.value)*0.7+parseFloat(tcomp2.value)*0.15+parseFloat(tcomp3.value)*0.15)*1.5+(parseFloat(web1.value)*0.7+parseFloat(web2.value)*0.15+parseFloat(web3.value)*0.15)*1.5+(parseFloat(index1.value)*0.7+parseFloat(index2.value)*0.15+parseFloat(index3.value)*0.15)*1+(parseFloat(bd1.value)*0.7+parseFloat(bd2.value)*0.15+parseFloat(bd3.value)*0.15)*1+(parseFloat(ed1.value)*0.7+parseFloat(ed2.value)*0.3)*1+(parseFloat(ia1.value)*0.7+parseFloat(ia2.value)*0.15+parseFloat(ia3.value)*0.15)*2+(parseFloat(ma.value)*1)+(parseFloat(di1.value)*0.5+parseFloat(di2.value)*0.5)*1+(parseFloat(ang1.value)*0.4+parseFloat(ang2.value)*0.4+parseFloat(ang3.value)*0.2)+(parseFloat(linux1.value)*0.7+parseFloat(linux2.value)*0.15+parseFloat(linux3.value)*0.15)*1.5+(parseFloat(py1.value)*0.7+parseFloat(py2.value)*0.15+parseFloat(py3.value)*0.15)*1.5)/12;
+              }
+              </script>
+              <button id="btn" onclick="moy2()">Submit</button>
+              <input id="btn1" type="reset" value="Reset"><br>
+              <label class="mg" for="moy">Moyenne Générale :</label>
+              <input type="number" id="moy" readonly>
+          </fieldset>
+        </form>
+      </div>
+</body>
+</html>

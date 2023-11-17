@@ -1,0 +1,184 @@
+.head{
+    margin-top: 200px;
+}
+.form{
+    margin: auto;
+    width:450px;
+    height:400px;
+    margin-right:400px;
+    margin-bottom: 10px;
+}
+html,body {
+  height: 100%;
+}
+.titre{
+    text-align: left;
+    color: white;
+    font-family: 'Aleo', serif;
+    box-sizing: border-box;
+    font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+.desc{
+    line-height: 1.5;
+    text-align: left;
+    color: rgb(59, 12, 168);
+    font-family: 'Aleo', serif;
+    box-sizing: border-box;
+    font-size: 1.25rem;
+    font-weight: 300;
+  
+}
+.form1{
+    width: 300px;
+}
+#niveau{
+    width:295px;
+}
+label{
+    color: #fff;
+    text-shadow:
+      0 0 5px #fff,
+      0 0 10px #fff,
+      0 0 20px #fff,
+      0 0 40px #0ff,
+      0 0 80px #0ff,
+      0 0 90px #0ff,
+      0 0 100px #0ff,
+      0 0 150px #0ff;
+}
+#specialite{
+  width: 295px;
+}
+
+
+
+html {
+    height: 100%;
+  }
+  body {
+    font-family: sans-serif;
+    background: linear-gradient(#141e30, #243b55);
+    margin-top: 200px;
+    width: 1000px;
+    height: 200px;
+    padding-top: 400px;
+  }
+  
+  .select-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 450px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: rgba(0,0,0,.5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+  }
+  
+
+
+  /*boutons*/
+ 
+ 
+  .sem{
+    margin-bottom:15px;
+  }
+
+  .button-64 {
+    align-items: center;
+    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    font-family: Phantomsans, sans-serif;
+    font-size: 20px;
+    justify-content: center;
+    line-height: 1em;
+    max-width: 100%;
+    min-width: 140px;
+    padding: 3px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+    margin-bottom: 5px;
+    width:300px;
+  }
+  
+  .button-64:active,
+  .button-64:hover {
+    outline: 0;
+  }
+  
+  .button-64 span {
+    background-color: rgb(5, 6, 45);
+    padding: 16px 24px;
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+    transition: 300ms;
+  }
+  
+  .button-64:hover span {
+    background: none;
+  }
+  
+  @media (min-width: 768px) {
+    .button-64 {
+      font-size: 24px;
+      min-width: 196px;
+    }
+  }
+    
+/*btn reset*/
+
+.button-27 {
+  appearance: none;
+  background-color: #000000;
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+  will-change: transform;
+}
+
+.button-27:disabled {
+  pointer-events: none;
+}
+
+.button-27:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.button-27:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
